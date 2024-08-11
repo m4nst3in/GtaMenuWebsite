@@ -24,7 +24,7 @@ const Overview: React.FC = () => {
                             Vulcan always are updated to bypass the Rockstar Anti-Cheat.<br />
                             Play without fear of getting banned or flagged as cheater!<br />
                             It also protects you from other modders and give you options to deal with them.<br />
-                            Never be trolled, kicked, crashed again! Vulcan also protects your IP from other menus.
+                            Never be trolled, kicked, crashed again!
                         </p>
                     </div>
                 </div>
@@ -43,7 +43,6 @@ const Overview: React.FC = () => {
                             It stretches from player options, vehicle options, weapon options, world options, and
                             more!<br/>
                             You can crash, kick or troll other players as you want, without fear of reprisal!<br/>
-                            Experience our options and have fun playing GTA Online.
                         </p>
                     </div>
                 </div>
@@ -59,7 +58,7 @@ const Overview: React.FC = () => {
                         </h2>
                         <p className="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
                             Get money for you and friends using our recovery options! <br/>
-                            Casino Rig slotting, Money Bag drop, RP Loop, CEO Loop, Car Gifts and more!<br/>
+                            RP Loop, CEO Loop, Money Bag drop, and more!<br/>
                             All our recovery methods are safe to use and undetected and always updated to deliver
                             you the best experience and safety.
                         </p>
