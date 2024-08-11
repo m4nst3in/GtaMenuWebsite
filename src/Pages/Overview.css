@@ -1,0 +1,40 @@
+.overview {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que os itens quebrem para a próxima linha */
+    justify-content: center; /* Centralizar os itens */
+    align-items: flex-start; /* Alinhar os itens ao topo */
+    padding: 1rem;
+    gap: 1rem; /* Adicionar espaço entre os itens */
+}
+
+.overview-item, .overview-item2, .overview-item3, .overview-item4, .overview-item5, .overview-item6, .overview-item7, .overview-item8, .overview-item9 {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 240px; /* Aumentar a altura dos itens */
+    padding: 1rem;
+    border: 1px solid #FFB200;
+    border-radius: 8px;
+    background: linear-gradient(45deg, black, rgba(64, 64, 64, 0.5)); /* Gradiente na diagonal com cinza mais escuro */
+    color: #333; /* Definir a cor da fonte do texto */
+    margin-top: 0; /* Remover margem superior */
+}
+
+.overview-item h2, .overview-item2 h2, .overview-item3 h2, .overview-item4 h2, .overview-item5 h2, .overview-item6 h2, .overview-item7 h2, .overview-item8 h2, .overview-item9 h2 {
+    margin-top: 10px; /* Ajustar o espaço entre o ícone e o título */
+    font-family: "Montserrat", sans-serif;
+    color: #FFB200; /* Definir a cor da fonte do título */
+    font-size: 1.7rem; /* Ajustar o tamanho do título */
+}
+
+.overview-item p, .overview-item2 p, .overview-item3 p, .overview-item4 p, .overview-item5 p, .overview-item6 p, .overview-item7 p, .overview-item8 p, .overview-item9 p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 0.950rem; /* Ajustar o tamanho do parágrafo */
+    line-height: 1.5; /* Ajustar a altura da linha */
+    color: #fff; /* Definir a cor da fonte do parágrafo */
+}
+
+.icon-background {
+    margin-bottom: 0; /* Remover o espaço entre o ícone e o título */
+    font-size: 1.5rem;
+}

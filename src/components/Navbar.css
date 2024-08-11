@@ -1,0 +1,26 @@
+.navbar {
+    background-color: transparent; /* Tornar a navbar transparente */
+    padding: 0.5rem; /* Reduzir o padding para aproximar do topo */
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 0.1rem;
+}
+
+.discord {
+    margin-right: 0.25rem; /* Reduzir o espaço à direita do botão Discord */
+}
+
+.dashboard {
+    margin-left: 0.25rem; /* Reduzir o espaço à esquerda do botão Dashboard */
+}

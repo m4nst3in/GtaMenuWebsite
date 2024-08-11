@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.vulcan-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Vulcan {
+    font-family: "Pacifico", sans-serif;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #FFB200;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    position: relative;
+    top: 150px;
+    z-index: 1;
+    text-align: center; /* Alinhar o texto ao centro */
+}
+
+.page-header .description {
+    margin-top: 150px; /* Reduzir a margem superior para ficar mais próximo do Vulcan */
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+    color: #EEEEEE;
+    position: relative;
+    z-index: 1;
+    text-align: center; /* Alinhar o texto ao centro */
+}
+
+.aws-btn {
+    --button-default-height: 44px;
+    --button-default-font-size: 13px;
+    --button-default-border-radius: 16px;
+    --button-horizontal-padding: 21px;
+    --button-raise-level: 0px;
+    --button-hover-pressure: 1.5;
+    --transform-speed: 0.125s;
+    --button-primary-color: #e5a50a;
+    --button-primary-color-dark: #000000;
+    --button-primary-color-light: #ffffff;
+    --button-primary-color-hover: #000000;
+    --button-primary-color-active: #000000;
+    --button-primary-border: 1px solid #000000;
+    --button-secondary-color: #f2f6f9;
+    --button-secondary-color-dark: #1360a4;
+    --button-secondary-color-light: #e5a50a;
+    --button-secondary-color-hover: #e1eaf1;
+    --button-secondary-color-active: #cfdee9;
+    --button-secondary-border: 2px solid #e5a50a;
+    --button-anchor-color: #0e4f88;
+    --button-anchor-color-dark: #072743;
+    --button-anchor-color-light: #ffffff;
+    --button-anchor-color-hover: #0d4a7f;
+    --button-anchor-color-active: #0c4271;
+    --button-anchor-border: none;
+    --button-danger-color: #c42e2e;
+    --button-danger-color-dark: #861f1f;
+    --button-danger-color-light: #ffffff;
+    --button-danger-color-hover: #bc2c2c;
+    --button-danger-color-active: #af2929;
+    --button-danger-border: none;
+    display: block;
+    margin: 20px auto 0; /* Centralizar o botão e adicionar margem superior */
+}
+
+.header-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centralizar a imagem */
+    width: 40%;
+    height: 450px; /* Aumentar a altura dos itens */
+    padding: 0; /* Remover padding para que a imagem preencha completamente o container */
+    border: 1px solid #FFB200;
+    border-radius: 8px;
+    background: linear-gradient(45deg, black, rgba(64, 64, 64, 0.5)); /* Gradiente na diagonal com cinza mais escuro */
+    color: #333; /* Definir a cor da fonte do texto */
+    margin: 2rem auto 0; /* Adicionar margem superior para posicionar abaixo do botão */
+}
+
+.header-image {
+    width: 100%; /* Ajustar a largura para preencher o container */
+    height: 100%; /* Ajustar a altura para preencher o container */
+    object-fit: cover; /* Garantir que a imagem se ajuste ao container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
