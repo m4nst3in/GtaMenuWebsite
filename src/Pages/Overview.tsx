@@ -30,7 +30,7 @@ const Overview: React.FC = () => {
                 </div>
             </div>
             <div className="overview-item2">
-                <div className="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-purple-500">
+                <div className="scale-100">
                     <div>
                         <div className="icon-background">
                             <IoSettingsOutline color="#FFB200" size="3.5rem" />
@@ -48,7 +48,7 @@ const Overview: React.FC = () => {
                 </div>
             </div>
             <div className="overview-item3">
-                <div className="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-purple-500">
+                <div className="scale-100">
                     <div>
                         <div className="icon-background">
                             <TbMoneybag color="#FFB200" size="3.5rem" />
@@ -66,7 +66,7 @@ const Overview: React.FC = () => {
                 </div>
             </div>
             <div className="overview-item4">
-                <div className="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-purple-500">
+                <div className="scale-100">
                     <div>
                         <div className="icon-background">
                             <GrLanguage color="#FFB200" size="3.5rem" />
@@ -83,7 +83,7 @@ const Overview: React.FC = () => {
                 </div>
             </div>
             <div className="overview-item5">
-                <div className="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-purple-500">
+                <div className="scale-100">
                     <div>
                         <div className="icon-background">
                             <TiEdit color="#FFB200" size="3.5rem" />
@@ -99,7 +99,7 @@ const Overview: React.FC = () => {
                 </div>
             </div>
             <div className="overview-item6">
-                <div className="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-purple-500">
+                <div className="scale-100">
                     <div>
                         <div className="icon-background">
                             <GoCpu color="#FFB200" size="3.5rem" />
@@ -116,7 +116,7 @@ const Overview: React.FC = () => {
                 </div>
             </div>
             <div className="overview-item7">
-                <div className="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-purple-500">
+                <div className="scale-100">
                     <div>
                         <div className="icon-background">
                             <MdSupportAgent color="#FFB200" size="3.5rem" />
@@ -132,7 +132,7 @@ const Overview: React.FC = () => {
                 </div>
             </div>
             <div className="overview-item8">
-                <div className="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-purple-500">
+                <div className="scale-100">
                     <div>
                         <div className="icon-background">
                             <IoCloudUploadOutline color="#FFB200" size="3.5rem" />
@@ -149,7 +149,7 @@ const Overview: React.FC = () => {
                 </div>
             </div>
             <div className="overview-item9">
-                <div className="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-purple-500">
+                <div className="scale-100">
                     <div>
                         <div className="icon-background">
                             <RxDiscordLogo color="#FFB200" size="3.5rem" />
